@@ -1,0 +1,23 @@
+body{
+    background-color: var(--bg-main);
+    text-align: center;
+    height: 300px;
+    color: var(--color-font-secondary);
+}
+.scroll-up{
+    background-color: var(--color-pink);
+    width: 14rem;
+    height: 3.75rem;
+    border: none;
+    transition: var(--transition);
+
+}
+.socials{
+    display: block;
+    color: var(--color-font-white);
+
+}
+.socials-icons{
+    font-size: 1.75rem;
+    margin: 20px 40px 20px 40px;
+}

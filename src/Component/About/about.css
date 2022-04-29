@@ -1,0 +1,77 @@
+h2{
+    text-transform:uppercase;
+}
+
+.about{
+    margin: 10px;
+    padding: 20px 0 20px 0;
+    background-color: rgb(229, 233, 236);
+}
+.about h2{
+    text-decoration: underline ;
+    margin-top: 3rem;
+    color: var(--color-font);
+    
+}
+.about button{
+    width: 10rem;
+    height: 2.75rem;
+    font-size: small;
+    display: block;
+    position: relative ;
+    left: 42.5%;
+
+}
+.cards{
+    margin: 20px;
+    display: inline-block;
+    position: relative;
+    left: 0px;
+}
+.cards h3{
+    color: var(--color-font-third);
+}
+.cards p{
+    font-size: small;
+    color: var(--color-font-third);
+    font-weight: 400;
+}
+.circle{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50px;
+    background-color: var(--color-babyblue);
+    display: inline-block;
+
+}
+.circle-icon{
+   font-size: 2.5rem;
+   color: white;
+   position: relative;
+   top: 25%;
+}
+.circle::before{
+    content:"";
+    height: inherit;
+    position: absolute;
+}
+.square{
+    width: 7rem;
+    height: 6rem;
+    border-radius: 15px;
+    background-color: var(--color-babyblue);
+    display:inline-block;
+}
+/* inside skills, targetting labels */
+.skill{
+    margin: 1px;
+}
+.skills{
+    position: relative;
+    /* top: 1000 ; */
+    margin: 0 350px 0 350px;
+}
+.skills body{
+   background-color:rgb(229, 233, 236) ; 
+
+}

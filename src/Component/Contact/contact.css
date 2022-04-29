@@ -1,0 +1,57 @@
+/* #contact{
+    display: block;
+    background-color: rgb(17, 17, 17);
+    width: 700px;
+    margin-left: 325px;
+    margin-top: 20px;
+
+}
+fieldset{
+    padding: 30px 80px 30px 80px ;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+#contact-form input{
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    border-style: none;
+}
+
+#contact-form li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+#contact-form legend {
+	font-size: 1.5em;
+    text-align: center; 
+}
+#contact-form .company{
+    margin: 0 0 0 200px;
+}
+#contact-form .individual{
+    margin: 0 0 0 50px;
+}
+#interests{
+    background-color: transparent;
+    color: white;
+    border-radius: 7px;
+
+    width: 200px;
+}
+#message{
+    height: 200px;
+}
+/* Send Button */
+/* button{
+    background-color: transparent;
+    width: 8rem;
+    height: 2.5rem;
+    border: solid var(--color-font-white);
+    border-radius: 5px;
+    color: var(--color-font-white);
+    margin-top: 20px;
+} */

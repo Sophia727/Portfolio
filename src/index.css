@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Generalities */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --color-font: #444649;
+    --color-font-white: #fefefe;
+    --color-font-secondary: #989a9e;
+    --color-font-third: #64676b;
+
+    --bg-main: #252934;
+    --bg-secondary:#1b242f;
+
+    --color-pink: rgb(240, 44, 106);
+    --color-babyblue: #2bb1b6;
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-ms: 90%;
+
+    --transition: all 400ms ease;
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-font-secondary);
+    line-height: 1.7 ;
+}
+
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5{
+    font-weight: 500;
+}
+h1{
+    font-size: 2.5rem;
+}
+section{
+    margin-top: 8rem;
+}
+
+section > h2, section > h5 {
+    text-align: center;
+    color: var(--color-font-secondary);
+}
+section > h2 {
+    color: var(--color-font-white);
+    margin-bottom: 3rem;
+}
+.text-light{
+    color: var(--color-font-third);
+}
+a{
+    transition: var(--transition);
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: var(--color-pink);
+}
+
+/* ------------------------------------- */
+
+/* to scroll from navBar directly to content */
+
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* ------------------------------------ */
+
+
+/* ----button---- */
+button{
+    background-color: transparent;
+    width: 14rem;
+    height: 3.75rem;
+    border: solid var(--color-font-white);
+    border-radius: 5px;
+    color: rgb(215, 215, 215);
+    margin-top: 20px;
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: larger;
+}
+
+
+/* ------------------------------------ */
+/* images */
+img{
+    display: block;
+    width: 100%;
+    object-fit:cover;
+
+}
+
+/* ------------------------------------ */
+
+
+/* ++++++++++++++++++++++ MEDIA QUERIES ++++++++++++++++++++++++++ */
+
+/* media queries (MEDIUM devices) */
+@media screen and (max-width: 1024px) {
+    .container{
+        width: var(--container-width-md);
+    }
+    section{
+        margin-top: 6rem;
+    }
+}
+/* media queries (SMALL devices) */
+@media screen and (max-width: 600px) {
+    .container{
+        width: var(--container-width-sm);
+    }
+    section > h2{
+        margin-top: 2rem;
+    }
+}
