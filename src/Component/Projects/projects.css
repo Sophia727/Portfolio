@@ -1,0 +1,10 @@
+/* CAROUSEL */
+#carousel{
+    margin: 25px;
+}
+.carousel{
+    width: 500px;
+    border: 3px solid white;
+    padding: 50px;
+    margin: 30px;
+}

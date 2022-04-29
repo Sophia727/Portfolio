@@ -1,49 +1,48 @@
 import React from 'react';
-import media from "../../Media/";
+
+import agecalc from "../Media/agecalc.png"
+import creasoul from "../Media/creasoul.png";
+import fishchips from "../Media/fishchips.png";
+import ilayoga from "../Media/ilayoga.png";
+
+import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Projects = () => {
   return (
     <>
-      <section id="carousel">
-            <div className="row">
-                <h3>Last Projects</h3>
-                <div className="container">
-                    <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
-                        <div className="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div className="carousel-inner">
-                          <div className="carousel-item active" data-bs-interval="10000">
-                              <img src="age-calc" className="d-block w-100" alt="..."/>
-                          </div>
+    <h2>Projects</h2>
+      <div className="container">
+      <Carousel id="carousel" variant="dark">
+        <Carousel.Item>
+          <img
+            className="d-block w-100" 
+            src={agecalc}
+            alt="First slide"/>
+        </Carousel.Item>
 
-                          <div className="carousel-item" data-bs-interval="2000">
-                              <img src="creasoul" className="d-block w-100" alt="..."/>
-                              
-                          </div>
-                          <div className="carousel-item">
-                              <img src="fish-chips" className="d-block w-100" alt="..."/>
-                              
-                          </div>
-                          <div className="carousel-item" data-bs-interval="2000">
-                              <img src="ila-yoga" className="d-block w-100" alt="..."/>
-                              
-                          </div>
-                        </div>
-                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Previous</span>
-                        </button>
-                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={creasoul}
+            alt="Second slide"/>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={fishchips}
+            alt="Third slide"/>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={ilayoga}
+            alt="First slide"/>
+        </Carousel.Item>
+      </Carousel>
+      </div>
     </>
   )
 }
