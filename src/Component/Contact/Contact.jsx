@@ -1,48 +1,66 @@
 import React from 'react';
-// import contact from "../Contact/contact.css";
-// import {form} from "react-bootstrap" ;
-// import "bootstrap/dist/css/bootstrap.mon.css";
+import { Form, FormGroup, FormControl, FormLabel, DropdownButton, InputGroup, Dropdown } from "react-bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import contact from "../Contact/contact.css"
 
 const Contact = () => {
   return (
     <>
-      <h2>Contact</h2>
-        <form id="contact-form" method="post">
-            {/* <div class="form-row">
-                <div class="col-md-6 mb-3">
-                    <label for="validationDefault01" class="form-label">Name :</label>
-                    <input type="text" id="validationDefault01" class="form-control" value="Your full Name" required/>
-                </div>
-                <div class="col-md-6 mb-3">
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required/>
+        <div className="bg-contact">
+            <h2>Contact</h2>
+      
+            <div className="container">
+            <Form>
+
+                <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                    <div className="left">
+                        <Form.Label>Name</Form.Label>
                     </div>
+                    <Form.Control type="text" placeholder="Your Name" />
+                </Form.Group>
+
+                <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                <div className="left">
+                    <Form.Label>Email address</Form.Label>
                 </div>
+                    <Form.Control type="email" placeholder="name@example.com" />
+                </Form.Group>
+
+                {/* RADIO */}
+                <div className="left">
+                    <Form.Label>You are :</Form.Label>
+                </div>
+                <Form.Check className='radios' label="Individual" type="radio" aria-label="radio 1" />
+                <Form.Check className='radios' label="Company" type="radio" aria-label="radio 1" />
+
+                {/* RADIO */}
+                <div className="left">
+                    <Form.Label>What are you interested in?</Form.Label>
+                </div>
+                    <InputGroup className="mb-3">
+                        <DropdownButton
+                        variant="outline-secondary"
+                        title="Dropdown"
+                        id="input-group-dropdown-1">
+                        <Dropdown.Item className="drop" href="#">Front-End</Dropdown.Item>
+                        <Dropdown.Item className="drop" href="#">Full-Stack</Dropdown.Item>
+                        <Dropdown.Item className="drop" href="#">SEO and Adds</Dropdown.Item>
+                        <Dropdown.Item className="drop" href="#">Branding</Dropdown.Item>
+                        <Dropdown.Item className="drop" href="#">Other</Dropdown.Item>
+                        </DropdownButton>
+                    </InputGroup>
+
+                {/* MSSG */}
+                <div className="left">
+                    <Form.Label>Write me:</Form.Label>
+                </div>
+                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                    <Form.Control className="textbox" as="textarea" rows={3} />
+                </Form.Group>
+                <div className="btn-send"><button type="submit">Submit</button></div>
+            </Form>
             </div>
-            <div class="custom-control custom-radio custom-control-inline">
-                <legend>Are you: </legend>
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
-                <label class="form-check-label" for="inlineRadio1">An Individual</label>
-            </div>
-            <div class="custom-control custom-radio custom-control-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
-                <label class="form-check-label" for="inlineRadio2">A Company</label>
-            </div>
-            <div class="form-group col-md-4">
-            <legend>What are you interested in?</legend>
-                <label for="inputState">State</label>
-                <select id="inputState" class="form-control" value='Select'>
-                    <option value="Front-End">Front-End</option>
-                    <option value="Back-End">Back-End</option>
-                    <option value="SEO-ads">SEO and Ads</option>
-                    <option value="Branding">Branding</option>
-                    <option value="other">Other</option>
-                </select>
-            </div>
-            <textarea type="text" name="message" id="message" placeholder="Type your Message..."></textarea>
-            <button type="submit">Submit</button> */}
-        </form>
+        </div>   
         
     </>
   )

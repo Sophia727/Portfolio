@@ -7,12 +7,13 @@ import welcome from "./welcome.css"
 const Welcome = () => {
   return (
     <header>
-    <div className='container header-container'>
-      <h1>Hello, I'm <span>Sophia Toukram!</span><br/>
-      I'm a full-stack web developer.</h1>
-      <button><a href='#About'>View my work <FaArrowDown className='FaArrowDown'/></a></button>  
-    </div>
-    
+      <div className="bg-header">
+        <div className='container header-container'>
+          <h1>Hello, I'm <span>Sophia Toukram!</span><br/>
+          I'm a full-stack web developer.</h1>
+          <button><a href='#About'>View my work <FaArrowDown className='FaArrowDown'/></a></button>  
+        </div>
+      </div>
     </header>
     
     

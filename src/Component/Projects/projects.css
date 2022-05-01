@@ -1,10 +1,18 @@
 /* CAROUSEL */
 #carousel{
     margin: 25px;
+
 }
 .carousel{
-    width: 500px;
+    width: auto;
     border: 3px solid white;
     padding: 50px;
     margin: 30px;
+}
+
+.bg-pro h2{
+    text-decoration: underline ;
+    margin-top: 3rem;
+    color: var(--color-font);
+    
 }

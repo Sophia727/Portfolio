@@ -1,57 +1,46 @@
-/* #contact{
-    display: block;
-    background-color: rgb(17, 17, 17);
-    width: 700px;
-    margin-left: 325px;
-    margin-top: 20px;
-
-}
-fieldset{
-    padding: 30px 80px 30px 80px ;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-bottom: 20px;
-}
-#contact-form input{
-    background-color: transparent;
-    color: white;
-    border-radius: 15px;
-    border-style: none;
+.bg-contact{
+    background-color: var(--bg-secondary);
+    margin-top: 3rem;
+    padding: 1.5rem 0 8rem 0;
+    margin-bottom: 1rem var(--color-babyblue);
 }
 
-#contact-form li{
-    list-style: none;
+body{
+    background-color: var(--bg-secondary);
+}
+.radios{
     display: inline-block;
-
+    margin: 0 4rem 0 4rem;
+}
+.left{
+    text-align: left;
+}
+#input-group-dropdown-1{
+    width: 55rem;
+    height: 3rem;
+    background-color: white;
+}
+#input-group-dropdown-1:hover{
+    color: var(--color-pink);
 }
 
-#contact-form legend {
-	font-size: 1.5em;
-    text-align: center; 
+.textbox{
+    height: 240px;
 }
-#contact-form .company{
-    margin: 0 0 0 200px;
-}
-#contact-form .individual{
-    margin: 0 0 0 50px;
-}
-#interests{
-    background-color: transparent;
-    color: white;
-    border-radius: 7px;
 
-    width: 200px;
+
+/* after selection */
+#input-group-dropdown-1.dropdown-toggle.show.btn.btn-outline-secondary{
+    color: var(--bg-secondary);
 }
-#message{
-    height: 200px;
+
+.dropdown-menu.show{
+    width: 51rem;
+} 
+
+/* ++++++++++++ */
+.btn-send{
+    display: block;
+    float: right;
+    color: var(--color-pink);
 }
-/* Send Button */
-/* button{
-    background-color: transparent;
-    width: 8rem;
-    height: 2.5rem;
-    border: solid var(--color-font-white);
-    border-radius: 5px;
-    color: var(--color-font-white);
-    margin-top: 20px;
-} */

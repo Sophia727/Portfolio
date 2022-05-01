@@ -3,8 +3,9 @@ h2{
 }
 
 .about{
-    margin: 10px;
+
     padding: 20px 0 20px 0;
+    
     background-color: rgb(229, 233, 236);
 }
 .about h2{
@@ -14,14 +15,20 @@ h2{
     
 }
 .about button{
-    width: 10rem;
-    height: 2.75rem;
-    font-size: small;
-    display: block;
-    position: relative ;
-    left: 42.5%;
+    width: 15rem;
+    height: 3rem;
+    font-size: medium;
+    color: white;
+    margin: 3rem 0 2rem 0;
+    background-color: var(--color-babyblue);
+    border: none;
 
 }
+.aboutbutton{
+    position: relative;
+    display: block;
+}
+
 .cards{
     margin: 20px;
     display: inline-block;
@@ -55,23 +62,46 @@ h2{
     height: inherit;
     position: absolute;
 }
+hr{
+    margin: 1rem 20rem 0 20rem ;
+}
 .square{
     width: 7rem;
     height: 6rem;
     border-radius: 15px;
     background-color: var(--color-babyblue);
-    display:inline-block;
+    display:block;
+    position:relative ;
+    left: 45%;
+    right: 45%;
+    margin-top: 4rem;
+}
+.cards-square h3, .cards-square p{
+    color: var(--color-font-third);
+}
+.cards-square{
+    margin-bottom: 2.5rem;
 }
 /* inside skills, targetting labels */
+.bg{
+    background-color: var(--color-font);
+    padding: 1rem 0 2rem 0;
+}
 .skill{
-    margin: 1px;
+    margin: 3px;
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 15px;
+    height: 2rem;
 }
 .skills{
     position: relative;
-    /* top: 1000 ; */
-    margin: 0 350px 0 350px;
+    display: block;
 }
-.skills body{
-   background-color:rgb(229, 233, 236) ; 
-
+.sk h3, .sk h4{
+    margin-top: 2.25rem;
+    margin-bottom: 1.25rem;
+    color: white;
+    font-weight: 300;
+    text-overflow: clip;
 }

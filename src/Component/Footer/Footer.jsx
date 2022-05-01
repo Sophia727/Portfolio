@@ -9,11 +9,13 @@ import footer from "../Footer/footer.css";
 const Footer = () => {
   return (
     <>
+    <div className="bg-footer">
     <button className='scroll-up'>Scroll up <FaArrowUp/></button>
     <div className='socials'>
       <a href="https://www.linkedin.com/in/sophia-toukram/"><FaLinkedinIn className='socials-icons'/></a>
       <a href="https://www.instagram.com/iamstram_gram/"><FaInstagram className='socials-icons'/></a>
       <a href="https://github.com/Sophia727"><FaGithub className='socials-icons'/></a>
+    </div>
     </div>
     </>
     

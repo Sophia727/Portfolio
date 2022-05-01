@@ -1,5 +1,5 @@
 body{
-    background-color: var(--bg-main);
+    background-color: var(--bg-secondary);
     text-align: center;
     height: 300px;
     color: var(--color-font-secondary);
@@ -10,14 +10,16 @@ body{
     height: 3.75rem;
     border: none;
     transition: var(--transition);
-
 }
 .socials{
     display: block;
     color: var(--color-font-white);
-
+    margin: 1rem 0 3rem 0;
 }
 .socials-icons{
     font-size: 1.75rem;
     margin: 20px 40px 20px 40px;
+}
+.bg-footer{
+    background-color: var(--bg-main);
 }

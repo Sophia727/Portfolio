@@ -33,8 +33,9 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    color: var(--color-font-secondary);
+    color:whitesmoke;
     line-height: 1.7 ;
+    background-color: whitesmoke;
 }
 
 .container{
@@ -51,9 +52,6 @@ h2{
     text-decoration: underline ;
     margin-top: 3rem;
     color: var(--color-font);
-}
-section{
-    margin-top: 8rem;
 }
 
  h2, h5 {
@@ -121,16 +119,15 @@ img{
     .container{
         width: var(--container-width-md);
     }
-    section{
-        margin-top: 6rem;
-    }
+    
 }
 /* media queries (SMALL devices) */
 @media screen and (max-width: 600px) {
     .container{
         width: var(--container-width-sm);
     }
-    section > h2{
-        margin-top: 2rem;
+    
+    .sk{
+        display: inline;
     }
 }

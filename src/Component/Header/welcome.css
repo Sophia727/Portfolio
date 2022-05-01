@@ -1,11 +1,9 @@
-/* body{
+.bg-header{
     background-color: var(--bg-main);
-    color: var(--color-font-white);
-    height: 500px;
-} */
+    height: 665px;
+}
 .header-container{
-    margin-top: 50px;
-    height: 480px;
+    padding-top: 15rem;
     text-align: center;
 }
 span{
