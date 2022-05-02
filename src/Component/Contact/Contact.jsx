@@ -1,12 +1,12 @@
 import React from 'react';
 import { Form, FormGroup, FormControl, FormLabel, DropdownButton, InputGroup, Dropdown } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import contact from "../Contact/contact.css"
+import "../Contact/contact.css";
 
 const Contact = () => {
   return (
     <>
-        <div className="bg-contact">
+        <div id='Contact' className="bg-contact">
             <h2>Contact</h2>
       
             <div className="container">

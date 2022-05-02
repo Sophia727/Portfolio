@@ -8,12 +8,12 @@ import ilayoga from "../Media/ilayoga.png";
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import projects from "../Projects/projects.css";;
+import "../Projects/projects.css";
 
 const Projects = () => {
   return (
     <>
-    <div className="bg-pro">
+    <div id='Portfolio' className="bg-pro">
     <h2>Prortfolio</h2>
       <div className="container">
       <Carousel id="carousel" variant="dark">

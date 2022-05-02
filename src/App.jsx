@@ -6,7 +6,6 @@ import Projects from "./Component/Projects/Projects";
 import Contact from "./Component/Contact/Contact";
 import Footer from "./Component/Footer/Footer";
 
-// import Form from 'react-bootstrap/Form'
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
         <Header/>
         <Navbar/>
         <About/>
-        {/* projects is portfolio */}
         <Projects/> 
         <Contact/>
         <Footer/>

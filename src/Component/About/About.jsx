@@ -7,12 +7,12 @@ import {FaRegSmileBeam} from "react-icons/fa";
 import ProgressBar from 'react-bootstrap/ProgressBar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import about from "../About/about.css";
+import "../About/about.css";
 
 const About = () => {
   return (
     <>
-      <div className='about'>
+      <div id='About' className='about'>
         <h2>About</h2>
         
           {/* RESPONSIVE */}
@@ -68,15 +68,18 @@ const About = () => {
             <div className="skills">
               <div className="sk">
                 <h3>Skills</h3>
-                <ProgressBar className='skill' variant="warning" now={70} label={`CSS`} />
+                <ProgressBar className='skill' variant="danger" now={70} label={`CSS`} />
                 <ProgressBar className='skill' variant="success" now={80} label={`HTML`} />
                 <ProgressBar className='skill' variant="info" now={65} label={`REACT JS`} />
                 <ProgressBar className='skill' variant="secondary" now={60} label={`JAVASCRIPT`} />
+                <ProgressBar className='skill' variant="warning" now={80} label={`BOOTSTRAP`} />
+                <ProgressBar className='skill' variant="success" now={70} label={`GOOGLE ADS`} />
+
               </div>
               
               <div className="sk">
                 <h4>Languages</h4>
-                <ProgressBar className='skill' variant="info" now={70} label={`English`} />
+                <ProgressBar className='skill' variant="info" now={80} label={`English`} />
                 <ProgressBar className='skill' variant="warning" now={90} label={`French`} />
               </div>
             </div>
