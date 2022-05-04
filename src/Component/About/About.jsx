@@ -12,8 +12,8 @@ import "../About/about.css";
 const About = () => {
   return (
     <>
-      <div id='About' className='about'>
-        <h2>About</h2>
+      <div  className='about'>
+        <h2 id='About'>About</h2>
         
           {/* RESPONSIVE */}
           <div className="cards">

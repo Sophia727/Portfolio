@@ -14,7 +14,7 @@ const Projects = () => {
   return (
     <>
     <div id='Portfolio' className="bg-pro">
-    <h2>Prortfolio</h2>
+    <h2>Projects</h2>
       <div className="container">
       <Carousel id="carousel" variant="dark">
         <Carousel.Item>
