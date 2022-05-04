@@ -1,0 +1,16 @@
+h2, h3{
+    margin: 10px 0 5px 0;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: var(--bg-main);
+}
+
+.bug{
+    color: var(--color-pink);
+}
+.waving-hand{
+    color: var(--color-babyblue);
+}

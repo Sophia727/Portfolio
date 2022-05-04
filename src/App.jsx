@@ -1,21 +1,20 @@
 import React from 'react';
-import Header from "./Component/Header/Welcome";
-import Navbar from './Component/Header/Navbar/Navbar';
-import About from "./Component/About/About";
-import Projects from "./Component/Projects/Projects";
-import Contact from "./Component/Contact/Contact";
-import Footer from "./Component/Footer/Footer";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 
+import Home from "./Pages/Home";
+import Contact from "./Pages/Contact";
+import ErrorNotFound from './Pages/ErrorNotFound';
 
 function App() {
   return (
     <>
-        <Header/>
-        <Navbar/>
-        <About/>
-        <Projects/> 
-        <Contact/>
-        <Footer/>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/Contact' element={<Contact/>}/>
+          <Route path='/*' element={<ErrorNotFound/>}/>
+        </Routes>
+      </Router>
     </>
   )
 }

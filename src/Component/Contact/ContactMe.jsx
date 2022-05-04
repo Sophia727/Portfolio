@@ -1,9 +1,9 @@
 import React from 'react';
 import { Form, FormGroup, FormControl, FormLabel, DropdownButton, InputGroup, Dropdown } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "../Contact/contact.css";
+import "../Contact/contactMe.css";
 
-const Contact = () => {
+const ContactMe = () => {
   return (
     <>
         <div id='Contact' className="bg-contact">
@@ -66,4 +66,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default ContactMe

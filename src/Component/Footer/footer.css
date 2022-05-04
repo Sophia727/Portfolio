@@ -23,3 +23,18 @@ body{
 .bg-footer{
     background-color: var(--bg-main);
 }
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 80px;
+    z-index: 99;
+    color: white;
+    cursor: pointer;
+
+  }
+  
+  #myBtn:hover {
+    background-color: var(--color-babyblue);
+  }
