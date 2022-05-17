@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.389686d5.css",
-    "main.js": "/portfolio/static/js/main.d5257970.js",
-    "static/media/backgroundcells.jpg": "/portfolio/static/media/backgroundcells.32bf5177851636c227de.jpg",
-    "static/media/ilayoga.png": "/portfolio/static/media/ilayoga.354772f88a815dd139a7.png",
-    "static/media/creasoul.png": "/portfolio/static/media/creasoul.b012be73cfb248022acd.png",
-    "static/media/agecalc.png": "/portfolio/static/media/agecalc.cdae1481005ebd27d609.png",
-    "static/media/fishchips.png": "/portfolio/static/media/fishchips.f96010b8abb6fe28505c.png",
-    "index.html": "/portfolio/index.html",
-    "main.389686d5.css.map": "/portfolio/static/css/main.389686d5.css.map",
-    "main.d5257970.js.map": "/portfolio/static/js/main.d5257970.js.map"
+    "main.css": "/Portfolio/static/css/main.389686d5.css",
+    "main.js": "/Portfolio/static/js/main.6c8e3c39.js",
+    "static/media/backgroundcells.jpg": "/Portfolio/static/media/backgroundcells.32bf5177851636c227de.jpg",
+    "static/media/ilayoga.png": "/Portfolio/static/media/ilayoga.354772f88a815dd139a7.png",
+    "static/media/creasoul.png": "/Portfolio/static/media/creasoul.b012be73cfb248022acd.png",
+    "static/media/agecalc.png": "/Portfolio/static/media/agecalc.cdae1481005ebd27d609.png",
+    "static/media/fishchips.png": "/Portfolio/static/media/fishchips.f96010b8abb6fe28505c.png",
+    "index.html": "/Portfolio/index.html",
+    "main.389686d5.css.map": "/Portfolio/static/css/main.389686d5.css.map",
+    "main.6c8e3c39.js.map": "/Portfolio/static/js/main.6c8e3c39.js.map"
   },
   "entrypoints": [
     "static/css/main.389686d5.css",
-    "static/js/main.d5257970.js"
+    "static/js/main.6c8e3c39.js"
   ]
 }
