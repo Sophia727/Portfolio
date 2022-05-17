@@ -14,7 +14,7 @@ body{
 .socials{
     display: block;
     color: var(--color-font-white);
-    margin: 1rem 0 3rem 0;
+
 }
 .socials-icons{
     font-size: 1.75rem;
@@ -24,8 +24,8 @@ body{
     background-color: var(--bg-main);
 }
 
-#myBtn {
-    display: none;
+.scroll-up {
+   /* display: none; */
     position: fixed;
     bottom: 20px;
     right: 80px;
@@ -35,6 +35,6 @@ body{
 
   }
   
-  #myBtn:hover {
+  .scroll-up:hover {
     background-color: var(--color-babyblue);
   }

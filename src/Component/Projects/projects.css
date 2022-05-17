@@ -9,7 +9,9 @@
     padding: 50px;
     margin: 30px;
 }
-
+.bg-pro{
+    background-color: var(--bg-clear);
+}
 .bg-pro h2{
     text-decoration: underline ;
     margin-top: 3rem;

@@ -12,7 +12,7 @@ const Welcome = () => {
         <div className='container header-container'>
           <h1>Hello, I'm <span>Sophia Toukram!</span><br/>
           I'm a full-stack web developer.</h1>
-          <button><a href='#About'>View my work <FaArrowDown className='FaArrowDown'/></a></button>  
+          <button><a href='#About'>Learn more <FaArrowDown className='FaArrowDown'/></a></button>  
         </div>
       </div>
     </header>
